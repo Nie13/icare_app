@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require easing
+//= require jquery-1.11.0.min
+//= require move-top
+//= require nav
+//= require responsiveslides.min
