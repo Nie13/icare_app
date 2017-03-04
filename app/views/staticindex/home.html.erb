@@ -26,7 +26,7 @@
           <div class="header-left-text">
           <a class="toggleMenu" href="#"><img src="images/menu-icon.png" alt=""/></a>
           <ul class="nav">
-            <li><a href="#about" class="scroll"></a></li>
+            <li><a href="#about" class="scroll">FUNCTIONS</a></li>
             <li><a href="#work" class="scroll"></a></li>
             <li><a href="#price" class="scroll"></a></li>
             <li><a href="#blog" class="scroll"></a></li>
@@ -39,21 +39,91 @@
             jquery(document).ready(function($){
               $(".scroll").click(function(event)){
                 event.preventDefault();
-                $('html,body').animate({scrollTop:$(this.hash).offset});
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+              });
+            });
+            </script>
+          <script>
+            $(document).ready(function() {
+              $(".nav li a").click(function(){
+                $(this).parent().addClass("activate");
+                $(this).parent().siblings().removeClass("activate");
+              });
+            });
+          </script>
+
+          <script>
+          $(document).ready(function() {
+            var navoffeset=$(".header-home").offset().top;
+            $(window).scoll(function() {
+              var scrollpos=$(window).scrollTop();
+              if(scrollpos >= navoffeset){
+                $(".header-home").addClass("fixed");
+              }else {
+                $(".header-home").removeClass("fixed");
               }
-            }
-          <!--
-          K
-          E
-          E
-          P
-        -->
-
-
+            });
+          });
+          </script>
         </div>
+
     </div>
     </div>
     </div>
+  </div>
     <!--end-banner-->
+    <div class="project" id="services">
+		<div class="col-md-3 project-left">
+			<img src="images/project-1.jpg" alt=""/>
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Check Out Your Information</h4>
+				<label> </label>
+				<p>Account Information</p>
+				<div class="p-btn">
+					<a href="#">Enter</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 project-left">
+			<img src="images/project-2.jpg" alt=""/>
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Review the Service</h4>
+				<label> </label>
+				<p>Customer Reviews</p>
+				<div class="p-btn">
+					<a href="#">Enter</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 project-left">
+			<img src="images/project-3.jpg" alt=""/>
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Register as Workers</h4>
+				<label> </label>
+				<p>My Works</p>
+				<div class="p-btn">
+					<a href="#">Enter</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 project-left">
+			<img src="images/project-4.jpg" alt=""/>
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Check Your Working Schedules</h4>
+				<label> </label>
+				<p>My Calender</p>
+				<div class="p-btn">
+					<a href="#">Enter</a>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+
   </body>
 </html>

@@ -22,7 +22,7 @@ body a{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	min-height: cover;
+	min-height: 600px;
 	text-align:center;
 }
 .logo{
@@ -252,7 +252,7 @@ color:#000;
 	margin-right: 5px;
 }
 .header-right ul li span,.about-left ul li span{
-	background:url(../images/social-sprit.png) no-repeat;
+	background:url('social-sprit.png') no-repeat;
 	width:34px;
 	height:38px;
 	display:block;
@@ -323,7 +323,7 @@ color:#000;
 	margin-top: 5%;
 }
 .about{
-	background:url(../images/about-banner.jpg) no-repeat;
+	background:url('about-banner.jpg') no-repeat;
 	background-size:100% 100%;
 	min-height: 720px;
 }
@@ -381,7 +381,7 @@ color:#000;
 	margin: 0;
 	text-align: center;
 	position: relative;
-	background: url(../images/hexa1.png) no-repeat 500px 0px;
+	background: url('hexa1.png') no-repeat 500px 0px;
 	padding: 1em 0px;
 }
 .what-main h4,.what-middle-right h4{
@@ -437,7 +437,7 @@ color:#000;
 	position:relative;
 }
 .project-left span {
-	background: url(../images/project-top.png) no-repeat;
+	background: url('project-top.png') no-repeat;
 	width: 62px;
 	height: 70px;
 	display: block;
@@ -588,10 +588,10 @@ color:#000;
 	text-align:center;
 }
 .price-left-two{
-	background:url(../images/price-1.png) no-repeat;
+	background:url('price-1.png') no-repeat;
 }
 .price-left-top{
-	background:url(../images/price-2.png) no-repeat;
+	background:url('price-2.png') no-repeat;
 }
 .price-left-two h5,.price-left-top h5{
 	color: #fff;
@@ -613,7 +613,7 @@ color:#000;
 	margin-top: 5px;
 }
 .price-left-two a,.price-left-top a{
-	background: url(../images/price-arrow.png) no-repeat;
+	background: url('price-arrow.png') no-repeat;
 	width: 54px;
 	height: 60px;
 	display: block;
@@ -718,7 +718,7 @@ color:#000;
 	height: 43px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/scroll-top.png) no-repeat 7px 7px #e22e2e;
+	background: url('scroll-top.png') no-repeat 7px 7px #e22e2e;
 	border-radius: 0.3em;
 	-webkit-border-radius: 0.3em;
 	-moz-border-radius: 0.3em;
@@ -728,7 +728,7 @@ color:#000;
 /*--end-footer--*/
 /*--start-blog--*/
 .blog{
-	background: url(../images/blog-banner.jpg) no-repeat;
+	background: url('blog-banner.jpg') no-repeat;
 	background-size:100% 100%;
 	min-height:700px;
 }
@@ -743,7 +743,7 @@ color:#000;
 	position:relative;
 }
 .blog-left span {
-	background: url(../images/main-sprit.png) no-repeat -70px 0px;
+	background: url('main-sprit.png') no-repeat -70px 0px;
 	width: 35px;
 	height: 46px;
 	display: block;
@@ -804,7 +804,7 @@ color:#000;
 	margin-top: 1.5em;
 }
 .quality-top-one span{
-	background: url(../images/price-1.png) no-repeat;
+	background: url('price-1.png') no-repeat;
 	width: 170px;
 	height: 200px;
 	display: block;
@@ -819,7 +819,7 @@ color:#000;
 	margin-top: 35%;
 }
 .quality-bottom label,.touch-right-top span{
-	background: url(../images/main-sprit.png) no-repeat;
+	background: url('main-sprit.png') no-repeat;
 	width:35px;
 	height: 46px;
 	display: block;
@@ -961,7 +961,7 @@ color:#000;
 	margin-top: 6%;
 }
 .touch-right-bottom{
-	background:url(../images/back-img.png) no-repeat;
+	background:url('back-img.png') no-repeat;
 	width:270px;
 	height:303px;
 	display:block;
@@ -1030,7 +1030,7 @@ color:#000;
 }
 /*------------------ Slider Part starts Here----------*/
 .slider{
-	background:url(../images/slide-banner.jpg)no-repeat;
+	background:url('slide-banner.jpg')no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -1136,7 +1136,7 @@ color:#000;
 	text-decoration: none;
 	height: 46px;
 	width: 35px;
-	background: transparent url("../images/main-sprit.png") no-repeat;
+	background: transparent url('main-sprit.png') no-repeat;
 }
 .callbacks_nav:active {
   opacity: 1.0;
@@ -1270,7 +1270,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 /*--Slider-Part-Ends-Here--*/
 .clients-btm{
-	background:url(../images/clients-back.png) no-repeat;
+	background:url('clients-back.png') no-repeat;
 	width:430px;
 	height:484px;
 	display:block;
@@ -1354,7 +1354,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .what-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
 	font-size: 3em;
-	background: url(../images/hexa1.png) no-repeat 395px 0px;
+	background: url('hexa1.png') no-repeat 395px 0px;
 	padding: 1.08em 0px;
 }
 .what {
@@ -1467,7 +1467,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .what-main h3, .blog-main h3, .price-main h3, .quality-main h3,
  .touch-main h3, .clients-mian h3 {
 	font-size: 2.55em;
-	background: url(../images/hexa1.png) no-repeat 311px 0px;
+	background: url('hexa1.png') no-repeat 311px 0px;
 	padding: 30px 0px;
 	background-size: 90px;
 }
@@ -1688,7 +1688,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .what-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
 	font-size: 2.25em;
-	background: url(../images/hexa1.png) no-repeat 253px 4px;
+	background: url('hexa1.png') no-repeat 253px 4px;
 	padding: 31px 0px;
 	background-size: 85px;
 }
@@ -1973,7 +1973,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .what-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
 	font-size: 2em;
-	background: url(../images/hexa1.png) no-repeat 181px 4px;
+	background: url('hexa1.png') no-repeat 181px 4px;
 	padding: 24px 0px;
 	background-size: 70px;
 }
@@ -2228,7 +2228,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .what-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
 	font-size: 1.8em;
-	background: url(../images/hexa1.png) no-repeat 109px 4px;
+	background: url('hexa1.png') no-repeat 109px 4px;
 	padding: 19px 0px;
 	background-size: 55px;
 }
@@ -2325,7 +2325,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	font-size: 14px;
 }
 .blog-left span {
-	background: url(../images/main-sprit.png) no-repeat -42px 0px;
+	background: url('main-sprit.png') no-repeat -42px 0px;
 	width: 24px;
 	height: 28px;
 	background-size: 986%;
