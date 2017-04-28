@@ -1,0 +1,129 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <title>I-Care, the solution for health care</title>
+  </head>
+  <body>
+    <!--satrtbanner-->
+    <!--<h1>Staticindex#home</h1>
+    <p>Find me in app/views/staticindex/home.html.erb</p>
+    <p>Just a simple test</p>-->
+    <div class="header"  id="home">
+    <div class="header-top">
+      <a href="/"><img src=""/></a>
+      <h1>It's all for you</h1>
+      <div class="header-top-bottom">
+        <a href="#about"  class="scoll"><img src=""/></a>
+      </div>
+    </div>
+    <div class="header-home">
+    <div class="fixed-header">
+      <div class="h_menu4"><!--h_menu4 starts here-->
+        <div class="header-left">
+          <div class="header-left-logo">
+            <a href="/"><img src="images/logo-1.png" alt=""/></a>
+          </div>
+          <div class="header-left-text">
+          <a class="toggleMenu" href="#"><img src="images/menu-icon.png" alt=""/></a>
+          <ul class="nav">
+            <li><a href="#about" class="scroll">FUNCTIONS</a></li>
+            <li><a href="#work" class="scroll"></a></li>
+            <li><a href="#price" class="scroll"></a></li>
+            <li><a href="#blog" class="scroll"></a></li>
+            <li><a href="#contact" class="scroll"></a></li>
+          </ul>
+          </div>
+          <div class="clearfix"></div>
+          <script type="text/javascript" src="nav.js"></script>
+          <script type="text/javascript">
+            jquery(document).ready(function($){
+              $(".scroll").click(function(event)){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+              });
+            });
+            </script>
+          <script>
+            $(document).ready(function() {
+              $(".nav li a").click(function(){
+                $(this).parent().addClass("activate");
+                $(this).parent().siblings().removeClass("activate");
+              });
+            });
+          </script>
+
+          <script>
+          $(document).ready(function() {
+            var navoffeset=$(".header-home").offset().top;
+            $(window).scoll(function() {
+              var scrollpos=$(window).scrollTop();
+              if(scrollpos >= navoffeset){
+                $(".header-home").addClass("fixed");
+              }else {
+                $(".header-home").removeClass("fixed");
+              }
+            });
+          });
+          </script>
+        </div>
+
+    </div>
+    </div>
+    </div>
+  </div>
+    <!--end-banner-->
+    <div class="project" id="services">
+		<div class="col-md-3 project-left">
+			<img src="images/project-1.jpg" alt=""/>
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Check Out Your Information</h4>
+				<label> </label>
+				<p>Account Information</p>
+				<div class="p-btn">
+					<a href="#">Enter</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 project-left">
+			<img src="images/project-2.jpg" alt=""/>
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Review the Service</h4>
+				<label> </label>
+				<p>Customer Reviews</p>
+				<div class="p-btn">
+					<a href="#">Enter</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 project-left">
+			<img src="images/project-3.jpg" alt=""/>
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Register as Workers</h4>
+				<label> </label>
+				<p>My Works</p>
+				<div class="p-btn">
+					<a href="#">Enter</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 project-left">
+			<img src="images/project-4.jpg" alt=""/>
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Check Your Working Schedules</h4>
+				<label> </label>
+				<p>My Calender</p>
+				<div class="p-btn">
+					<a href="#">Enter</a>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+
+  </body>
+</html>
